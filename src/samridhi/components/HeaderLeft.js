@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { Segment, Image } from 'semantic-ui-react';
+import { Segment, Image } from "semantic-ui-react";
 
-import { segmentStyleLeft } from './styles/default';
+import { segmentStyleLeft } from "./styles/default";
 
 class HeaderLeft extends React.Component {
     constructor() {
@@ -12,20 +12,20 @@ class HeaderLeft extends React.Component {
 
     render() {
         return (
-            <Segment width={13} style={segmentStyleLeft} floated='left'>
+            <Segment width={13} style={segmentStyleLeft} floated="left">
                 <Image
-                    src='Samridhi.jpg'
-                    size='small'
+                    src="Samridhi.jpg"
+                    size="small"
                     circular
-                    floated='left'
-                    verticalAlign='middle'
+                    floated="left"
+                    verticalAlign="middle"
                 />
                 <h1
                     style={{
                         margin: 0,
                         padding: 0,
                         fontSize: 32,
-                        display: 'inline-block'
+                        display: "inline-block"
                     }}
                 >
                     Samridhi Dubey
