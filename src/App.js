@@ -18,7 +18,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <Grid celled>
+            <Grid celled style={{ width: "960px" }}>
                 <Grid.Row>
                     <Grid.Column style={gridStyleLeft}>
                         <Header />
